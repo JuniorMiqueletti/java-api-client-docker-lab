@@ -17,7 +17,7 @@ import com.github.dockerjava.core.DockerClientBuilder;
 import com.github.dockerjava.core.DockerClientConfig;
 import com.github.dockerjava.core.command.PullImageResultCallback;
 
-public class DockerAPITest {
+public class DockerAPISmokeTest {
 
 	private static final String IMAGE_NAME = "busybox";
 	private static final String IMAGE_NAME_TAG = "busybox:latest";
